@@ -4,7 +4,7 @@
 paws::s3()$list_buckets() |> tidypaws::tidypaws()
 
 $Buckets
-# A tibble: 35 × 2
+# A tibble: 27 × 2
    Name                 CreationDate       
    <chr>                <dttm>             
  1 joes_bucket          2022-03-20 01:08:17
