@@ -1,8 +1,7 @@
 # tidypaws
 
-```{r}
+```R
 paws::s3()$list_buckets() |> tidypaws::tidypaws()
-```
 
 $Buckets
 # A tibble: 35 × 2
@@ -19,3 +18,4 @@ $Owner
   <chr>                                                           
 1 info                                                            
 2 3827e5...
+```
