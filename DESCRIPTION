@@ -16,4 +16,8 @@ VignetteBuilder: knitr
 Imports: 
     purrr,
     tidyr,
-    paws
+    paws,
+    dplyr,
+    rlang,
+    tibble,
+    glue
